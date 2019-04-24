@@ -1,0 +1,4 @@
+.tinydns/data
+.tinydns/dnssec
+node_modules/*
+node_modules/**/*
