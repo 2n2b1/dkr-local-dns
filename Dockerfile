@@ -5,7 +5,7 @@ RUN true \
         && rm -rf /var/cache/apk/*
 #FROM base as runner
 FROM scratch
-COPY --from=$0 /usr/bin/ /usr/bin/
+COPY --from=base /usr/bin/ /usr/bin/
 ADD ".tinydns/data" "/tmp/data"
 ADD "entrypoint.sh" "/entrypoint.sh"
 
