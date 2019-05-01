@@ -1,4 +1,6 @@
 # DKR-LOCAL-DNS
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2F2n2b1%2Fdkr-local-dns.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2F2n2b1%2Fdkr-local-dns?ref=badge_shield)
+
 
 ## Usage
 `docker run -it .`
@@ -63,3 +65,7 @@ Cnscache.local.2n2b1.com::192.168.1.126:::
     [~]:$ tinydns-edit data data.new add [ns|childns|host|alias|mx] domain a.b.c.d
 ```
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2F2n2b1%2Fdkr-local-dns.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2F2n2b1%2Fdkr-local-dns?ref=badge_large)
